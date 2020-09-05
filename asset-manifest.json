@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/git%20remote%20remove%20origin/static/css/main.c5c76c8f.chunk.css",
+    "main.js": "/git%20remote%20remove%20origin/static/js/main.ba8d7a9e.chunk.js",
+    "main.js.map": "/git%20remote%20remove%20origin/static/js/main.ba8d7a9e.chunk.js.map",
+    "runtime-main.js": "/git%20remote%20remove%20origin/static/js/runtime-main.3fb33449.js",
+    "runtime-main.js.map": "/git%20remote%20remove%20origin/static/js/runtime-main.3fb33449.js.map",
+    "static/js/2.ea9b5f1a.chunk.js": "/git%20remote%20remove%20origin/static/js/2.ea9b5f1a.chunk.js",
+    "static/js/2.ea9b5f1a.chunk.js.map": "/git%20remote%20remove%20origin/static/js/2.ea9b5f1a.chunk.js.map",
+    "index.html": "/git%20remote%20remove%20origin/index.html",
+    "precache-manifest.90b032ecfbb2ce8ba8c1fbe653d2cc98.js": "/git%20remote%20remove%20origin/precache-manifest.90b032ecfbb2ce8ba8c1fbe653d2cc98.js",
+    "service-worker.js": "/git%20remote%20remove%20origin/service-worker.js",
+    "static/css/main.c5c76c8f.chunk.css.map": "/git%20remote%20remove%20origin/static/css/main.c5c76c8f.chunk.css.map",
+    "static/js/2.ea9b5f1a.chunk.js.LICENSE.txt": "/git%20remote%20remove%20origin/static/js/2.ea9b5f1a.chunk.js.LICENSE.txt",
+    "static/media/spiral.svg": "/git%20remote%20remove%20origin/static/media/spiral.2a9f23ed.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3fb33449.js",
+    "static/js/2.ea9b5f1a.chunk.js",
+    "static/css/main.c5c76c8f.chunk.css",
+    "static/js/main.ba8d7a9e.chunk.js"
+  ]
+}

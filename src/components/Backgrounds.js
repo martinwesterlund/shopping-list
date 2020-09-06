@@ -2,7 +2,7 @@ import React from 'react'
 
 export function Backgrounds() {
   return (
-    <div class="crossfade">
+    <div className="crossfade">
       <figure></figure>
       <figure></figure>
       <figure></figure>

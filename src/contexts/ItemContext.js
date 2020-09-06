@@ -34,7 +34,6 @@ const ItemContextProvider = (props) => {
   };
 
   useEffect(() => {
-    console.log('Sparar datan')
     localStorage.setItem("items", JSON.stringify(items));
     localStorage.setItem("boughtItems", JSON.stringify(boughtItems));
   });

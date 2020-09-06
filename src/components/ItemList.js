@@ -45,9 +45,24 @@ const ItemList = () => {
       <ItemForm></ItemForm>
     </div>
   ) : (
-    <div id="item-view">
-      <div className="navbar"></div>
-      <div className="item-list"></div>
+    <div className="item-view">
+      <motion.div
+        initial={{ x: 500 }}
+        animate={{ x: 0 }}
+        transition={{ delay: 1 }}
+        className="navbar"
+      >
+        att köpa. (0)
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0, height: 0 }}
+        animate={{ opacity: 0.95, height: "65vh" }}
+        transition={{ delay: 1.2 }}
+        className="item-list"
+      >
+        <div className="item-container"></div>
+        
+      </motion.div>
       <ItemForm></ItemForm>
     </div>
   );

@@ -33,9 +33,19 @@ const BoughtItems = () => {
       <div className="form"></div>
     </div>
   ) : (
-    <div id="bought-items-view">
-      <div className="navbar"><FontAwesomeIcon class="navbar-icon" icon={faCheck} /></div>
-      <div className="bought-items-list"></div>
+    <div className="item-view">
+      <div
+        
+        className="navbar"
+      >
+        köpt. (0)
+      </div>
+      <div
+        
+        className="item-list"
+      >
+        
+      </div>
       <div className="form"></div>
     </div>
   );

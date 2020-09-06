@@ -14,8 +14,8 @@ const ItemForm = () => {
   return (
     <motion.form className="form" autoComplete="off" onSubmit={handleSubmit}>
       <motion.input
-        initial={{ x: -500 }}
-        animate={{ x: 0 }}
+        initial={{ x: -500, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
         transition={{ delay: 1 }}
         id="add-field"
         type="text"
@@ -26,8 +26,8 @@ const ItemForm = () => {
       />
 
       <motion.button
-        initial={{ x: 500 }}
-        animate={{ x: 0 }}
+        initial={{ x: 500, opacity: 0 }}
+        animate={{ x: 0, opacity: 1}}
         transition={{ delay: 1 }}
         id="submit-btn"
         type="submit"

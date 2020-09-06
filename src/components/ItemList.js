@@ -9,14 +9,16 @@ const ItemList = () => {
   const { items, removeItem, moveItem } = useContext(ItemContext);
   return items ? (
     <div className="item-view">
-      <motion.div
-        initial={{ x: 500 }}
-        animate={{ x: 0 }}
-        transition={{ delay: 1 }}
-        className="navbar"
-      >
-        att köpa. ({items.length})
-      </motion.div>
+      <div className="navbar">
+        <motion.div
+          initial={{ x: 500, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ delay: 1 }}
+        >
+          {" "}
+          att köpa. ({items.length})
+        </motion.div>
+      </div>
       <motion.div
         initial={{ opacity: 0, height: 0 }}
         animate={{ opacity: 0.95, height: "65vh" }}
@@ -46,14 +48,16 @@ const ItemList = () => {
     </div>
   ) : (
     <div className="item-view">
-      <motion.div
-        initial={{ x: 500 }}
-        animate={{ x: 0 }}
-        transition={{ delay: 1 }}
-        className="navbar"
-      >
-        att köpa. (0)
-      </motion.div>
+      <div className="navbar">
+        <motion.div
+          initial={{ x: 500, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ delay: 1 }}
+        >
+          {" "}
+          att köpa. (0)
+        </motion.div>
+      </div>
       <motion.div
         initial={{ opacity: 0, height: 0 }}
         animate={{ opacity: 0.95, height: "65vh" }}
@@ -61,7 +65,6 @@ const ItemList = () => {
         className="item-list"
       >
         <div className="item-container"></div>
-        
       </motion.div>
       <ItemForm></ItemForm>
     </div>

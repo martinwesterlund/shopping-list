@@ -1,46 +1,20 @@
 import React from "react";
-import SwipeableViews from 'react-swipeable-views';
+import SwipeableViews from "react-swipeable-views";
 import ItemContextProvider from "./contexts/ItemContext";
-import Navbar from "./components/Navbar";
 import ItemList from "./components/ItemList";
-import ItemForm from "./components/ItemForm";
 import BoughtItems from "./components/BoughtItems";
-import HelpBtn from "./components/HelpBtn";
+import { Backgrounds } from "./components/Backgrounds";
 
 function App() {
-  
   return (
     <div className="App">
-      
-      <HelpBtn></HelpBtn>
-       <ItemContextProvider>
-        {/* <Navbar></Navbar> */}
-        
+      <Backgrounds></Backgrounds>
+      <ItemContextProvider>
         <SwipeableViews>
-        <ItemList></ItemList>
-        <BoughtItems></BoughtItems>
-        
-        </SwipeableViews>
-        
-        {/*<SwipeableViews>
           <ItemList></ItemList>
           <BoughtItems></BoughtItems>
-          </SwipeableViews>
-        <ItemForm></ItemForm>*/}
-      </ItemContextProvider> 
-      {/* <main className='flexbox'>
-        <Board id='board-1' className='board'>
-          <Card id='card-1' className='card' draggable='true'>
-            <p>Card One</p>
-          </Card>
-        </Board>
-
-        <Board id='board-2' className='board'>
-          <Card id='card-2' className='card' draggable='true'>
-            <p>Card Two</p>
-          </Card>
-        </Board>
-      </main> */}
+        </SwipeableViews>
+      </ItemContextProvider>
     </div>
   );
 }

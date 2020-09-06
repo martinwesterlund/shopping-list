@@ -7,9 +7,9 @@ import { faTrashAlt, faCheck} from "@fortawesome/free-solid-svg-icons";
 const BoughtItems = () => {
   const { boughtItems, moveItem, removeItem } = useContext(ItemContext);
   return boughtItems ? (
-    <div id="bought-items-view">
-      <div className="navbar"><FontAwesomeIcon class="navbar-icon" icon={faCheck} /></div>
-      <div className="bought-items-list">
+    <div className="item-view">
+      <div className="navbar">köpt. ({boughtItems.length})</div>
+      <div className="item-list">
         <div className="item-container">
           {/* <FontAwesomeIcon class="bg-icon" icon={faShoppingCart} /> */}
           {boughtItems.map((item) => {

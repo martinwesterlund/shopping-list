@@ -1,6 +1,6 @@
 {
   "name": "tobuy",
-  "homepage": "http://martinwesterlund.github.io/shoppingList",
+  "homepage": "http://martinwesterlund.github.io/shopping-list",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,6 +10,9 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "framer": "^1.2.5",
+    "framer-motion": "^2.6.6",
+    "motion": "^5.0.0-beta26",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",

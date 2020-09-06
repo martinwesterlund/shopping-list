@@ -121,9 +121,11 @@ figure {
 }
 
 .item-container {
+  padding: 20px;
   margin-top: 5px;
   margin-bottom: 5px;
-  overflow-y: scroll;
+  height: 100%;
+  overflow-y: auto;
 }
 
 .item {
@@ -142,10 +144,6 @@ figure {
   font-size: 20px;
 }
 
-.spiral {
-  position: absolute;
-  right: -50px;
-}
 
 .form {
   width: 100%;

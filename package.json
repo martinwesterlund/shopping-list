@@ -1,6 +1,6 @@
 {
   "name": "tobuy",
-  "homepage": "http://martinwesterlund.github.io/shopping-list",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

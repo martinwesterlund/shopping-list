@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Backgrounds></Backgrounds>
       <ItemContextProvider>
-        <SwipeableViews>
+        <SwipeableViews enableMouseEvents>
           <ItemList></ItemList>
           <BoughtItems></BoughtItems>
         </SwipeableViews>

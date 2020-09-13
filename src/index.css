@@ -39,6 +39,7 @@ body {
   left: 0px;
   opacity: 0;
   position: absolute;
+  /* object-fit: cover; */
   top: 0px;
   width: 100%;
   z-index: 0;
@@ -160,6 +161,7 @@ figure {
 #submit-btn {
   height: 50px;
   box-sizing: border-box;
+  margin: 0;
   outline: none;
   display: flex;
   justify-content: center;
